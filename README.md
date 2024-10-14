@@ -1,3 +1,5 @@
+https://github.com/Arno0x/DNSExfiltrator/raw/refs/heads/master/release/dnsExfiltrator.exe
+
 https://raw.githubusercontent.com/lazywinadmin/PowerShell/refs/heads/master/TOOL-Start-KeyLogger/Start-KeyLogger.ps1
 
 https://raw.githubusercontent.com/vinicius-batistella/Rumo/refs/heads/main/key.txt
