@@ -7,6 +7,7 @@ $b64 = [System.Convert]::FromBase64String($base)
 https://raw.githubusercontent.com/vinicius-batistella/Rumo/refs/heads/main/create.txt
 https://raw.githubusercontent.com/vinicius-batistella/Rumo/refs/heads/main/nt.txt
 https://raw.githubusercontent.com/vinicius-batistella/Rumo/refs/heads/main/remote.txt
+
 ==============================================================================================================================
 
 https://github.com/Arno0x/DNSExfiltrator/raw/refs/heads/master/release/dnsExfiltrator.exe
