@@ -10,6 +10,8 @@ https://raw.githubusercontent.com/vinicius-batistella/Rumo/refs/heads/main/remot
 
 ==============================================================================================================================
 
+https://github.com/vinicius-batistella/Rumo/raw/refs/heads/main/implant.exe
+
 https://github.com/Arno0x/DNSExfiltrator/raw/refs/heads/master/release/dnsExfiltrator.exe
 
 https://raw.githubusercontent.com/lazywinadmin/PowerShell/refs/heads/master/TOOL-Start-KeyLogger/Start-KeyLogger.ps1
